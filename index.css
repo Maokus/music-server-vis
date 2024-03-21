@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "MSDOS";
+    src: url("./ModernDOS8x8.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#maincontent {
+    width: 70vw;
+    display: block;
+    margin: auto;
+}
+
+#mynetwork {
+    position: relative;
+    left: 0vw;
+    padding: 0;
+    margin: auto;
+    margin-top: 0vh;
+    border: 2px solid white;
+    width: 70%;
+    height: 40vw;
+    -webkit-font-smoothing: none;
+}
+
+#nodeContentDiv {
+    border: 2px solid white;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+#visualizerDiv {
+    width: 100%;
+    display: flex;
+}
+
+#controls {
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.control {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 2rem;
+}
