@@ -1,6 +1,15 @@
+/* 
+
+Created by Markus Ang (Maokus) 
+
+This little node script takes information available in the gephi file and puts it into the convenient
+"attributes" field, which is readable by vis.js. Nifty!
+
+*/
+
 var fs = require('fs');
 
-const data = JSON.parse(JSON.stringify(require("./gephi_export_4.json")));
+const data = JSON.parse(JSON.stringify(require("./gephi_export_5.json")));
 
 for(var edge in data.edges){
     var edgeData = data.edges[edge];
