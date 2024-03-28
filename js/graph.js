@@ -157,7 +157,7 @@ function searchNodes(nodeName){
 
 // ----- NETWORK SETUP -----
 
-loadJSON("noded_out.json", redrawAll, function (err) {
+loadJSON("noded_out_5.json", redrawAll, function (err) {
   console.log(err);
 });
 

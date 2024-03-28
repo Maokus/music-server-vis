@@ -36,4 +36,4 @@ for(var edge in data.edges){
 //console.log(data.edges);
 //console.log(data.nodes);
 
-fs.writeFile("noded_out.json",JSON.stringify(data),"utf8",(resp)=>{console.log(resp)});
+fs.writeFile("noded_out_5.json",JSON.stringify(data),"utf8",(resp)=>{console.log(resp)});
